@@ -1,0 +1,103 @@
+@media only screen and (min-width: 901px) and (max-width: 1000px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 900px) and (orientation: landscape) {
+  .main {
+    flex-direction: column;
+    margin: 2vw 0;
+  }
+
+  .left, .right {
+    width: 96vw;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+  }
+
+  .about p {
+    width: 45vw;
+  }
+
+  img {
+    height: 40vw;
+    width: auto;
+    margin-left: 3vw;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 900px) and (orientation: portrait){
+  html {
+    font-size: 9px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 700px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  img {
+    width: 60vw;
+    height: auto;
+    margin: auto 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+
+  img {
+    width: 90vw;
+    height: auto;
+    margin: auto 0;
+  }
+}
+
+@media only screen and (min-width: 901px) and (orientation: portrait){
+  html {
+    font-size: 14px;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .left, .right {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (orientation: landscape){
+  html {
+    font-size: 12px;
+  }
+
+
+  .left, .right {
+    width: 100%;
+  }
+}

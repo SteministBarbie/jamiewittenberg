@@ -1,0 +1,87 @@
+html {
+  font-size: 8px;
+}
+
+body {
+  font-family: "Hind", helvetica, arial, sans-serif;
+  color: #142133;
+  margin: 2vw;
+
+}
+
+header {
+  min-height: 10vh;
+}
+
+header p {
+  font-family: 'Limelight';
+  font-size: 7rem;
+  color: #142133;
+  margin: 0 auto;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 8vh;
+}
+
+h1 {
+  color: #949e79;
+  font-size: 4rem;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left, .right {
+  width: 47vw;
+  margin: 2vh 0;
+}
+
+h2 {
+  font-size: 3.5rem;
+  margin: 1vh 0;
+  color: #142133;
+}
+
+h3 {
+  color: #142133;
+  font-size: 2.5rem;
+  margin: 1vh 0;
+}
+
+.main p {
+  margin: 1.5vh 0;
+  font-size: 2rem;
+}
+
+ul {
+  padding-left: 3vw;
+  list-style: disc;
+  font-size: 2rem;
+}
+
+img {
+  width: 60%;
+  height: auto;
+  margin: 3% 0;
+}
+.left p {
+  width: 95%;
+}
+
+a {
+  color: #142133;
+  text-decoration: none;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  margin: 10% 0;
+  font-size: 2.5rem;
+}
