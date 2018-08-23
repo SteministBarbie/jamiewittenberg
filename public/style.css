@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Hind", helvetica, arial, sans-serif;
+  font-family: "Fira Sans", helvetica, arial, sans-serif;
   color: #142133;
   margin: 2vw;
 
@@ -56,7 +56,7 @@ h3 {
 
 .main p {
   margin: 1.5vh 0;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 ul {
