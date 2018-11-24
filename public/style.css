@@ -1,30 +1,24 @@
 html {
-  font-size: 8px;
+  font-size: 12px;
 }
 
 body {
   font-family: "Fira Sans", helvetica, arial, sans-serif;
   color: #142133;
-  margin: 2vw;
-
-}
-
-header {
-  min-height: 10vh;
+  margin: 1vh 1vw;
 }
 
 header p {
   font-family: 'Limelight';
   font-size: 7rem;
   color: #142133;
-  margin: 0 auto;
+  margin: 2vh auto;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 8vh;
 }
 
 h1 {
@@ -38,40 +32,32 @@ h1 {
 }
 
 .left, .right {
-  width: 47vw;
+  width: 45vw;
   margin: 2vh 0;
 }
 
 h2 {
   font-size: 3.5rem;
-  margin: 1vh 0;
+  margin: 2vh 0;
   color: #142133;
 }
 
 h3 {
   color: #142133;
   font-size: 2.5rem;
-  margin: 1vh 0;
+  margin: 2vh 0;
 }
 
 .main p {
   margin: 1.5vh 0;
-  font-size: 1.8rem;
-}
-
-ul {
-  padding-left: 3vw;
-  list-style: disc;
-  font-size: 2rem;
+  font-size: 1.6rem;
+  color: #636168;
 }
 
 img {
-  width: 60%;
+  width: 70%;
   height: auto;
-  margin: 3% 0;
-}
-.left p {
-  width: 95%;
+  margin: 1vh 0;
 }
 
 a {
@@ -81,7 +67,8 @@ a {
 
 .social {
   display: flex;
-  justify-content: space-around;
-  margin: 10% 0;
+  justify-content: space-between;
+  margin: 3vh 0;
   font-size: 2.5rem;
+  padding: 0 1vw;
 }
