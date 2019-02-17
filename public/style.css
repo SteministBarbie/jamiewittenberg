@@ -13,12 +13,15 @@ header h1 {
   font-size: 7rem;
   color: #142133;
   margin: 2vh auto;
+  text-align: center;
+  /* border-bottom: 1px solid #949e79; */
 }
 
 .intro h1 {
   font-family: "Fira Sans", helvetica, arial, sans-serif;
   color: #949e79;
   font-size: 4rem;
+  margin-top: 2vh;
 }
 
 .intro {
@@ -39,11 +42,15 @@ header h1 {
 .right {
   width: 60vw;
   overflow-y: scroll;
-  height: 96vh;
+  height: 86vh;
 }
 
 .about {
-  margin: 4vh 0;
+  margin: 2vh 0;
+}
+
+.about {
+  border-bottom: 1px solid #636168;
 }
 
 h2 {
@@ -66,8 +73,8 @@ h3 {
 }
 
 ul {
-list-style-type: disc;
-margin-left: 2rem;
+  list-style-type: disc;
+  margin: 2rem;
 }
 
 li {
@@ -86,7 +93,7 @@ img {
 
 a {
   color: #142133;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .social {
@@ -98,12 +105,12 @@ a {
 
 .social h2 {
   width: 20%;
-  text-align:  left;
+  text-align: left;
   line-height: normal;
 }
 
 .social a {
   width: 20%;
-  text-align:  center;
+  text-align: center;
   line-height: normal;
 }
