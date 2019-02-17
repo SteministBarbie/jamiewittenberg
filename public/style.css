@@ -8,11 +8,20 @@ body {
   margin: 1vh 1vw;
 }
 
-header p {
+header h1 {
   font-family: 'Limelight';
   font-size: 7rem;
   color: #142133;
   margin: 2vh auto;
+  text-align: center;
+  /* border-bottom: 1px solid #949e79; */
+}
+
+.intro h1 {
+  font-family: "Fira Sans", helvetica, arial, sans-serif;
+  color: #949e79;
+  font-size: 4rem;
+  margin-top: 2vh;
 }
 
 .intro {
@@ -21,48 +30,75 @@ header p {
   justify-content: center;
 }
 
-h1 {
-  color: #949e79;
-  font-size: 4rem;
-}
-
 .main {
   display: flex;
   justify-content: space-between;
 }
 
-.left, .right {
-  width: 45vw;
+.left {
+  width: 40vw;
+}
+
+.right {
+  width: 60vw;
+  overflow-y: scroll;
+  height: 86vh;
+}
+
+.about {
   margin: 2vh 0;
+}
+
+.about {
+
 }
 
 h2 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   margin: 2vh 0;
-  color: #142133;
+  color: #636168;
+  border-bottom: 1px solid #636168;
+}
+
+h2.contact {
+  border-bottom: none;
 }
 
 h3 {
-  color: #142133;
   font-size: 2.5rem;
   margin: 2vh 0;
+  color: #636168;
 }
 
 .main p {
-  margin: 1.5vh 0;
-  font-size: 1.6rem;
+  margin: 2vh 0;
+  font-size: 1.5rem;
+  color: #636168;
+  line-height: normal;
+}
+
+ul {
+  list-style-type: disc;
+  margin: 2rem;
+}
+
+li {
+  display: list-item;
+  font-size: 1.5rem;
+  margin: .25rem;
   color: #636168;
 }
 
 img {
   width: 70%;
-  height: auto;
-  margin: 1vh 0;
+  height: 50vh;
+  width: auto;
+  margin: 4vh 0;
 }
 
 a {
   color: #142133;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .social {
@@ -70,5 +106,16 @@ a {
   justify-content: space-between;
   margin: 3vh 0;
   font-size: 2.5rem;
-  padding: 0 1vw;
+}
+
+.social h2 {
+  width: 20%;
+  text-align: left;
+  line-height: normal;
+}
+
+.social a {
+  width: 20%;
+  text-align: center;
+  line-height: normal;
 }

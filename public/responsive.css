@@ -10,22 +10,29 @@
 
 @media only screen and (min-width: 701px) and (max-width: 900px) and (orientation: landscape) {
   .main {
+    display: flex;
     flex-direction: column;
     margin: 2vw 0;
   }
 
+  .left {
+    display: flex;
+    flex-direction: row;
+  }
+
   .left, .right {
     width: 96vw;
+    height: auto;
+    overflow-y: visible;
   }
 
   .about {
     display: flex;
-    flex-direction: row;
-    width: 95vw;
+    flex-direction: column;
   }
 
   .about p {
-    width: 45vw;
+    width: 96vw;
   }
 
   img {
@@ -47,16 +54,20 @@
   .left, .right {
     width: 100%;
     margin: 1vh 0;
+    height: auto;
+    overflow-y: visible;
   }
 }
 
-@media only screen and (min-width: 501px) and (max-width: 700px) {
+@media only screen and (min-width: 501px) and (max-width: 700px)  {
   .main {
     flex-direction: column;
   }
 
   .left, .right {
     width: 100%;
+    height: auto;
+    overflow-y: visible;
   }
 
   img {
@@ -66,23 +77,38 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) and (orientation: portrait){
   .main {
     flex-direction: column;
   }
 
+  header h1, .intro h1 {
+    font-size: 2.5rem;
+    margin: 2vh 0;
+  }
+
   header p {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   .left, .right {
     width: 100%;
+    height: auto;
+    overflow-y: visible;
   }
 
   img {
     width: 90vw;
     height: auto;
     margin: auto 0;
+  }
+
+  .social {
+    align-items: center;
+  }
+
+  .social .fa-3x, .social h2 {
+    font-size: 3.5rem;
   }
 }
 
@@ -91,11 +117,18 @@
     font-size: 14px;
   }
 
+  img {
+    height: 40vh;
+    width: auto;
+  }
+
   .main {
     flex-direction: column;
   }
 
   .left, .right {
     width: 100%;
+    height: auto;
+    overflow-y: visible;
   }
 }
