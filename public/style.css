@@ -50,13 +50,18 @@ header h1 {
 }
 
 .about {
-  border-bottom: 1px solid #636168;
+
 }
 
 h2 {
   font-size: 4rem;
   margin: 2vh 0;
   color: #636168;
+  border-bottom: 1px solid #636168;
+}
+
+h2.contact {
+  border-bottom: none;
 }
 
 h3 {
