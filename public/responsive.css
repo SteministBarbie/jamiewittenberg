@@ -1,134 +1,171 @@
-@media only screen and (min-width: 901px) and (max-width: 1400px) {
-  header p, h1 {
-    margin: 0.5vh;
-  }
+ @media only screen and (min-width: 901px) and (max-width: 1400px) {
+   .left img {
+     width: 100vh;
+     height: 100vh;
+   }
 
-  img {
-    width: 90%;
-  }
-}
+   .left {
+     display: flex;
+   }
 
-@media only screen and (min-width: 701px) and (max-width: 900px) and (orientation: landscape) {
-  .main {
-    display: flex;
-    flex-direction: column;
-    margin: 2vw 0;
-  }
+   .left, .right,  {
+     height: 100vh;
+     margin: 0;
+   }
 
-  .left {
-    display: flex;
-    flex-direction: row;
-  }
+   .about {
+     margin: 0;
+   }
+ }
 
-  .left, .right {
-    width: 96vw;
-    height: auto;
-    overflow-y: visible;
-  }
+ @media only screen and (min-width: 701px) and (max-width: 900px) and (orientation: landscape) {
+   .main {
+     display: flex;
+     flex-direction: column;
+   }
 
-  .about {
-    display: flex;
-    flex-direction: column;
-  }
+   .left {
+     justify-content: right;
+   }
 
-  .about p {
-    width: 96vw;
-  }
+   .left, .right {
+     width: 100vw;
+     height: auto;
+     overflow-y: visible;
+   }
 
-  img {
-    height: 40vw;
-    width: auto;
-    margin-left: 3vw;
-  }
-}
+   .about {
+     display: flex;
+     flex-direction: column;
+   }
 
-@media only screen and (min-width: 701px) and (max-width: 900px) and (orientation: portrait) {
-  header p, h1 {
-    margin: 1vh 0;
-  }
+   .left img {
+     width: 100vw;
+     height: auto;
+   }
 
-  .main {
-    flex-direction: column;
-  }
+   .plants img {
+     width: 30vw;
+     height: auto;
+   }
+ }
 
-  .left, .right {
-    width: 100%;
-    margin: 1vh 0;
-    height: auto;
-    overflow-y: visible;
-  }
-}
+ @media only screen and (min-width: 701px) and (max-width: 900px) and (orientation: portrait) {
+   .main {
+     display: flex;
+     flex-direction: column;
+   }
 
-@media only screen and (min-width: 501px) and (max-width: 700px)  {
-  .main {
-    flex-direction: column;
-  }
+   .left {
+     justify-content: right;
+   }
 
-  .left, .right {
-    width: 100%;
-    height: auto;
-    overflow-y: visible;
-  }
+   .left, .right {
+     width: 100vw;
+     height: auto;
+     overflow-y: visible;
+   }
 
-  img {
-    width: 60vw;
-    height: auto;
-    margin: auto 0;
-  }
-}
+   .about {
+     display: flex;
+     flex-direction: column;
+   }
 
-@media only screen and (max-width: 500px) and (orientation: portrait){
-  .main {
-    flex-direction: column;
-  }
+   .left img {
+     width: 100vw;
+     height: auto;
+   }
 
-  header h1, .intro h1 {
-    font-size: 2.5rem;
-    margin: 2vh 0;
-  }
+   .plants img {
+     width: 27vw;
+     height: auto;
+   }
+ }
 
-  header p {
-    font-size: 2rem;
-  }
+ @media only screen and (max-width: 700px) {
+   html {
+     width: 100vw;
+     margin: 0;
+   }
 
-  .left, .right {
-    width: 100%;
-    height: auto;
-    overflow-y: visible;
-  }
+   .main {
+     flex-direction: column;
+     width: 100vw;
+   }
 
-  img {
-    width: 90vw;
-    height: auto;
-    margin: auto 0;
-  }
+   .about, .left, .right {
+     width: 100vw;
+     margin: 0;
+   }
 
-  .social {
-    align-items: center;
-  }
+   .left img {
+     width: 100vw;
+     height: auto;
+   }
 
-  .social .fa-3x, .social h2 {
-    font-size: 3.5rem;
-  }
-}
+   .right {
+     height: auto;
+     text-align: center;
+   }
 
-@media only screen and (min-width: 901px) and (orientation: portrait) {
-  html {
-    font-size: 14px;
-  }
+   ul {
+     text-align: left;
+     margin-top: 2vh;
+     margin-bottom: 2vh;
+   }
 
-  img {
-    height: 40vh;
-    width: auto;
-  }
+   header h1 {
+     font-size: 10vw;
+   }
 
-  .main {
-    flex-direction: column;
-  }
+   .plants {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+   }
 
-  .left, .right {
-    width: 100%;
-    height: auto;
-    overflow-y: visible;
-  }
-}
+   .plants img {
+     width: 100vw;
+     height: auto;
+   }
+
+   .social {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     margin: 4vh 0;
+   }
+ }
+
+ @media only screen and (min-width: 901px) and (orientation: portrait) {
+   .main {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .left {
+     justify-content: right;
+   }
+
+   .left, .right {
+     width: 100vw;
+     height: auto;
+     overflow-y: visible;
+   }
+
+   .about {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .left img {
+     width: 100vw;
+     height: auto;
+   }
+
+   .plants img {
+     width: 27vw;
+     height: auto;
+   }
+ }

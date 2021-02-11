@@ -3,109 +3,107 @@ html {
 }
 
 body {
-  font-family: "Fira Sans", helvetica, arial, sans-serif;
-  color: #142133;
-  margin: 1vh 1vw;
+  font-family: "Bitter", helvetica, arial, sans-serif;
+}
+
+.bio {
+  margin-top: 3vh;
+  margin-bottom: 4vh;
 }
 
 header h1 {
   font-family: 'Limelight';
   font-size: 7rem;
   color: #142133;
-  margin: 2vh auto;
-  text-align: center;
-  /* border-bottom: 1px solid #949e79; */
 }
 
-.intro h1 {
+/* .intro h1 {
   font-family: "Fira Sans", helvetica, arial, sans-serif;
   color: #949e79;
   font-size: 4rem;
   margin-top: 2vh;
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+} */
 
 .main {
   display: flex;
-  justify-content: space-between;
 }
 
 .left {
-  width: 40vw;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
 }
 
 .right {
-  width: 60vw;
+  width: 50vw;
   overflow-y: scroll;
-  height: 86vh;
+  height: 100vh;
+  background-color: white;
 }
 
 .about {
-  margin: 2vh 0;
+  margin: 4vh;
 }
 
-.about {
-
+.plants {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3vh;
 }
 
 h2 {
-  font-size: 4rem;
-  margin: 2vh 0;
-  color: #636168;
-  border-bottom: 1px solid #636168;
-}
-
-h2.contact {
-  border-bottom: none;
+  font-size: 2.5rem;
+  margin: 1vh 0;
 }
 
 h3 {
-  font-size: 2.5rem;
-  margin: 2vh 0;
+  font-size: 2rem;
+  margin: 1vh 0;
+}
+
+
+.about header p {
+  font-size: 1.5rem;
+  line-height: normal;
+  font-style: italic;
   color: #636168;
 }
 
-.main p {
-  margin: 2vh 0;
+p {
   font-size: 1.5rem;
-  color: #636168;
   line-height: normal;
 }
 
 ul {
   list-style-type: disc;
-  margin: 2rem;
+  margin: 0 2rem;
 }
 
 li {
   display: list-item;
   font-size: 1.5rem;
-  margin: .25rem;
-  color: #636168;
+  margin: .2rem;
 }
 
-img {
-  width: 70%;
-  height: 50vh;
+.left img {
   width: auto;
-  margin: 4vh 0;
+  height: 100vh;
+}
+
+.about img {
+  width: 15vw;
+  height: auto;
 }
 
 a {
-  color: #142133;
+  color: black;
   text-decoration: underline;
 }
 
 .social {
   display: flex;
-  justify-content: space-between;
-  margin: 3vh 0;
-  font-size: 2.5rem;
+  font-size: 1rem;
+  margin: 2vh 2vw;
 }
 
 .social h2 {
@@ -115,7 +113,7 @@ a {
 }
 
 .social a {
-  width: 20%;
+  width: 5%;
   text-align: center;
   line-height: normal;
 }
