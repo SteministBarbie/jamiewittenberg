@@ -1,4 +1,4 @@
- @media only screen and (min-width: 901px) and (max-width: 1400px) {
+ @media only screen and (min-width: 901px) and (max-width: 1400px) and (orientation: landscape){
    .left img {
      width: 100vh;
      height: 100vh;
@@ -17,6 +17,38 @@
      margin: 0;
    }
  }
+
+  @media only screen and (min-width: 901px) and (orientation: portrait) {
+    .main {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .left {
+      justify-content: right;
+    }
+
+    .left, .right {
+      width: 100vw;
+      height: auto;
+      overflow-y: visible;
+    }
+
+    .about {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .left img {
+      width: 100vw;
+      height: auto;
+    }
+
+    .plants img {
+      width: 27vw;
+      height: auto;
+    }
+  }
 
  @media only screen and (min-width: 701px) and (max-width: 900px) and (orientation: landscape) {
    .main {
@@ -41,7 +73,7 @@
 
    .left img {
      width: 100vw;
-     height: auto;
+     height: 100vw;
    }
 
    .plants img {
@@ -100,7 +132,7 @@
 
    .left img {
      width: 100vw;
-     height: auto;
+     height: 100vw;
    }
 
    .right {
@@ -135,37 +167,5 @@
      flex-direction: row;
      justify-content: space-around;
      margin: 4vh 0;
-   }
- }
-
- @media only screen and (min-width: 901px) and (orientation: portrait) {
-   .main {
-     display: flex;
-     flex-direction: column;
-   }
-
-   .left {
-     justify-content: right;
-   }
-
-   .left, .right {
-     width: 100vw;
-     height: auto;
-     overflow-y: visible;
-   }
-
-   .about {
-     display: flex;
-     flex-direction: column;
-   }
-
-   .left img {
-     width: 100vw;
-     height: auto;
-   }
-
-   .plants img {
-     width: 27vw;
-     height: auto;
    }
  }
