@@ -26,6 +26,7 @@ header h1 {
 
 .main {
   display: flex;
+  width: 100vw;
 }
 
 .left {
@@ -39,16 +40,18 @@ header h1 {
   overflow-y: scroll;
   height: 100vh;
   background-color: white;
+  border: 1px solid blue;
 }
 
 .about {
   margin: 4vh;
+  border: 1px solid red;
 }
 
 .plants {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3vh;
+  margin-bottom: 4vh;
 }
 
 h2 {
@@ -66,7 +69,6 @@ h3 {
   font-size: 1.5rem;
   line-height: normal;
   font-style: italic;
-  color: #636168;
 }
 
 p {
@@ -86,7 +88,7 @@ li {
 }
 
 .left img {
-  width: auto;
+  width: 100vh;
   height: 100vh;
 }
 
@@ -102,18 +104,15 @@ a {
 
 .social {
   display: flex;
-  font-size: 1rem;
-  margin: 2vh 2vw;
+  margin: 4vh;
+  border: 1px solid green;
 }
 
-.social h2 {
-  width: 20%;
-  text-align: left;
-  line-height: normal;
-}
 
 .social a {
   width: 5%;
   text-align: center;
   line-height: normal;
+  padding-right: 2vw;
+  color:
 }
